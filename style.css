@@ -224,3 +224,42 @@ main section{
 .gift-image img{
     margin: 5px 5px;
 }
+
+
+/* ========== newsletter-section ========== */
+
+.newsletter-section{
+    background-color: #fd3a3a33;
+    padding: 80px 212px;
+    border-radius: 16px;
+    text-align: center;
+
+}
+
+.newsletter-desription{
+    font-size: 20px;
+    color: #6e6e6e;
+    margin-top: 24px;
+
+}
+
+.newsletter-section form input{
+    padding: 25px 30px;
+    font-size: 18px;
+    width: 60%;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+}
+
+.newsletter-section form{
+    margin-top: 30px;
+}
+
+.newsletter-button{
+    padding: 25px 50px;
+    font-size: 18px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    margin-left: -4px;
+}
+
