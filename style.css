@@ -51,13 +51,17 @@
 
 /* ============= Hero code ================= */
 
+header{
+    max-width: 1320px;
+    margin: 20px auto;
+}
 .hero{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/Banner\ Image.png);
     padding:177px 344px ;
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    margin: 50px 140px;
+    margin: 50px auto;
     border-radius: 16px;
     text-align: center;
     color: #ffff;
@@ -121,6 +125,24 @@ main section{
 
 }
 
+/* ============= Joining Section ================= */
+
+.joining-section{
+    padding: 100px 385px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.322),rgba(255, 0, 0, 0) 100%);
+    text-align: center;
+}
 
 
+
+.joining-section h5{
+    font-size: 32px;
+    margin-bottom: 24px;
+
+}
+
+.text-color{
+    color: #FF0000;
+}
 
