@@ -9,6 +9,7 @@
 /* ============= Reusable code ================= */
 :root{
     --color-primary: #FF0000;
+    --radius-primary: 16px;
 }
 
 .section-title{
@@ -32,6 +33,21 @@
     margin-bottom: 16px;
 }
 
+
+.btn-primary{
+    padding: 16px 32px;
+    font-size: 18px;
+    background-color: #FF0000;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    &&:hover{
+        background-color: #a80808;
+        transform: scale(1.05);
+    }
+}
 
 /* ============= Hero code ================= */
 
@@ -72,5 +88,39 @@ main section{
     text-align: center;
     text-transform: uppercase;
 }
+
+
+/* ============= welcome banner ================= */
+
+.welcome-banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/Vectorrr.png);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    padding: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--radius-primary);
+    color: #fff;
+}
+
+.welcome-title{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 24px;
+
+}
+
+
+.welcome-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 48px;
+
+}
+
+
 
 
