@@ -159,7 +159,6 @@ main section{
 
 .coming-section .coming-text{
     width: 35%;
-    /* background-color: rebeccapurple; */
 }
 
 .coming-subtilte{
@@ -181,3 +180,47 @@ main section{
     margin: 24px 0;
 }
 
+/* ========== Holyday Section ========== */
+
+.holyday-text{
+    text-align: center;
+
+}
+
+.holyday-title{
+    font-size: 72px;
+
+}
+
+.holyday-image{
+    background-image: url(./assets/images/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    margin-top: 500px;
+    position: relative;
+}
+
+.holyday-image .image-1{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.holyday-image .image-2{
+    position:static;
+    bottom: 250px;
+    right: 150px;
+}
+
+/* ========== gift Section ========== */
+
+.gift-text p{
+    font-size: 20px;
+    color: #6e6e6e;
+    margin-top: 24px;
+    max-width: 70%;
+    margin-bottom: 40px;
+}
+
+.gift-image img{
+    margin: 5px 5px;
+}
