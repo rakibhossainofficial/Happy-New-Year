@@ -10,6 +10,31 @@
 :root{
     --color-primary: #FF0000;
 }
+
+.section-title{
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 48px;
+
+}
+
+.section-subtitle{
+    font-size: 48px;
+    font-weight: 48px;
+
+
+}
+
+.section-description{
+    font-size: 24px;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+
+/* ============= Hero code ================= */
+
 .hero{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/images/Banner\ Image.png);
     padding:177px 344px ;
@@ -20,17 +45,32 @@
     border-radius: 16px;
     text-align: center;
     color: #ffff;
-
-
 }
 
 .hero-subtitle{
     font-size: 36px;
-
 }
 
 .hero-title{
     font-size: 72px;
     margin-top: 16px;
 }
+
+/* ============= Main ================= */
+
+main{
+    max-width: 1320px;
+    margin: 20px auto;
+}
+
+
+main section{
+    margin: 140px 0;
+}
+
+.offer-section{
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
