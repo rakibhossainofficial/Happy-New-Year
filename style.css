@@ -189,14 +189,18 @@ main section{
 
 .holyday-title{
     font-size: 72px;
-
 }
 
 .holyday-image{
-    background-image: url(./assets/images/Rectangle\ 2.png);
     background-repeat: no-repeat;
     margin-top: 500px;
     position: relative;
+    padding-top: 300px;
+}
+
+.main-image{
+    position: absolute;
+    bottom: 0;
 }
 
 .holyday-image .image-1{
@@ -205,8 +209,9 @@ main section{
     left: 50px;
 }
 
+
 .holyday-image .image-2{
-    position:static;
+    position:absolute;
     bottom: 250px;
     right: 150px;
 }
@@ -225,7 +230,6 @@ main section{
     margin: 5px 5px;
 }
 
-
 /* ========== newsletter-section ========== */
 
 .newsletter-section{
@@ -233,14 +237,12 @@ main section{
     padding: 80px 212px;
     border-radius: 16px;
     text-align: center;
-
 }
 
 .newsletter-desription{
     font-size: 20px;
     color: #6e6e6e;
     margin-top: 24px;
-
 }
 
 .newsletter-section form input{
@@ -263,3 +265,53 @@ main section{
     margin-left: -4px;
 }
 
+/* ========== footer -section ========== */
+
+footer{
+    background-color: #070211;
+    color: white;
+
+
+}
+
+
+.footer{
+    margin: 0 auto;
+    padding: 120px 140px;
+    font-size: 24px;
+}
+
+footer .text-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+footer .text-1 .number{
+    display: flex;
+
+}
+
+footer .text-1 .number p{
+    margin-left: 20px;
+}
+
+
+footer .social-icon{
+    text-align: center;
+    margin: 24px 0;
+
+}
+
+footer .social-icon img{
+    margin: 0 24px;   
+}
+
+footer .text-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+
+}
